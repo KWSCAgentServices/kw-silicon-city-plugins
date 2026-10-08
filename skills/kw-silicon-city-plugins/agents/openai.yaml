@@ -1,0 +1,7 @@
+interface:
+  display_name: "KW Silicon City Plugins"
+  short_description: "Create branded real estate marketing materials"
+  icon_small: "./assets/kwsc-realtrends-logo-color.png"
+  icon_large: "./assets/kwsc-realtrends-logo-color.png"
+  brand_color: "#CE011F"
+  default_prompt: "Use $kw-silicon-city-plugins to generate the marketing design with GPT Image for the named KWSC host or promoting agent, preserving the original headshot and accurate Listed by attribution."
