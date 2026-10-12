@@ -1,5 +1,5 @@
 interface:
-  display_name: "KW Silicon City Plugins"
+  display_name: "KW Silicon City Marketing Assistant"
   short_description: "Create branded real estate marketing materials"
   icon_small: "./assets/kwsc-realtrends-logo-color.png"
   icon_large: "./assets/kwsc-realtrends-logo-color.png"
