@@ -11,7 +11,7 @@
     "capabilities": []
   },
   "name": "kw-silicon-city-plugins",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Generate Keller Williams Silicon City real estate marketing with GPT Image, verified agent information, unchanged original headshots, and accurate listing attribution.",
   "author": {
     "name": "KWSC Agent Services",

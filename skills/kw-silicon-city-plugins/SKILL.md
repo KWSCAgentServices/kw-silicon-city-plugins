@@ -21,6 +21,8 @@ Read [references/property-first-copy-and-layout.md](references/property-first-co
 
 Read [references/full-marketing-campaign.md](references/full-marketing-campaign.md) whenever the user requests a full campaign, complete marketing package, launch package, open-house campaign, or another coordinated multi-asset deliverable.
 
+For a newly listed property announcement, prominently lead the visual with the exact words "JUST LISTED" and start the caption with "Just Listed", followed by a concise verified property-benefit subheadline. Apply this to standalone announcements as well as campaign launch posts. Verify the newly listed claim against listing history; an open-house event headline does not replace the listing-launch message.
+
 ## Completion-first execution
 
 When the user requests a finished deliverable, own the prerequisite research and continue through generation and quality review in the same run whenever the authorized tools and sources permit it.

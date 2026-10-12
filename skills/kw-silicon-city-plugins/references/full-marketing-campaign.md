@@ -6,7 +6,7 @@ Use this campaign mode when the agent asks for a full campaign, complete marketi
 
 Unless the agent requests a different set, a full campaign includes these six coordinated deliverables:
 
-1. **Announcement post** — a square or portrait feed graphic announcing the listing or open house with a distinct property-led headline.
+1. **Just Listed announcement post** — a square or portrait feed graphic introducing the newly listed property. Make the exact words **JUST LISTED** a large, prominent lead message on the graphic, and begin the caption with **Just Listed**. Follow with a short, verified property-benefit subheadline, then concise key details and a buyer-focused CTA. An open-house announcement is a separate event message and does not replace the Just Listed launch post. Verify that the property is newly listed before making this claim; if it is an established listing, use an accurate listing-status announcement and explain the adjustment.
 2. **Primary open-house flyer** — a print-ready and digital-friendly flyer centered on the property, event date/time, key facts, host, and listing attribution. If no open house is scheduled, create a primary listing or private-tour flyer instead; never invent event details.
 3. **Property-features carousel** — four to six cards: a property-led cover followed by concise cards for the strongest verified features, spaces, or buyer benefits. Each card uses a useful authorized property photo and one main message.
 4. **Property spotlight social post** — a separate feed post using a different verified value angle from the announcement, with its own short caption and three to five scannable bullets.
@@ -58,6 +58,7 @@ Do not silently add a paid distribution plan, publishing action, printing order,
 Before delivery, confirm that:
 
 - all six applicable core deliverables are present, or the agent explicitly changed the set;
+- the newly listed announcement prominently displays the exact words **JUST LISTED**, its caption opens with **Just Listed**, and the verified listing history supports that message;
 - every asset has a distinct purpose, headline, and useful property-photo selection;
 - facts, current status, measurements, event details, attribution, logo, and contact information agree across the entire campaign;
 - captions and visual copy are short, scannable, property-first, and non-salesy;
