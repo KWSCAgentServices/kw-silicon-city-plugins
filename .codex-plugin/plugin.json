@@ -3,7 +3,7 @@
     "category": "Productivity",
     "defaultPrompt": "Create a GPT Image marketing design for this listing and named KWSC agent, preserving their original Drive headshot and adding accurate Listed by attribution.",
     "developerName": "KWSC Agent Services",
-    "displayName": "KW Silicon City Marketing Assistant",
+    "displayName": "KW Silicon City Marketing Agent",
     "longDescription": "Create marketing for KWSC agents hosting open houses or promoting listings, including other brokerages' properties. Use the connected Drive roster and headshot library, preserve original agent faces, retain brokerage branding, and credit the actual listing agent.",
     "shortDescription": "KWSC real estate marketing",
     "logo": "./assets/kwsc-plugin-icon-v2.png",
@@ -11,7 +11,7 @@
     "capabilities": []
   },
   "name": "kw-silicon-city-plugins",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Generate Keller Williams Silicon City real estate marketing with GPT Image, verified agent information, unchanged original headshots, and accurate listing attribution.",
   "author": {
     "name": "KWSC Agent Services",

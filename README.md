@@ -1,4 +1,4 @@
-# KW Silicon City Marketing Assistant
+# KW Silicon City Marketing Agent
 
 A skills-only Agent Plugins 1.0 package for KW Silicon City real estate marketing.
 
