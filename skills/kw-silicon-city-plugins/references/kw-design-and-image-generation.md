@@ -56,6 +56,7 @@ The prompt must explicitly require:
 - use the supplied listing photos as the actual property imagery; do not synthesize a house from the address or description;
 - make the property the star of the composition, with the strongest real listing photo as the largest visual and additional useful real property photos when the format and verified source set allow;
 - keep the agent portrait, name, and contact block smaller and visually secondary while still noticeable and readable;
+- make the phone number slightly larger than the surrounding contact text (roughly 10–20% larger than email, website, role, and license text), with clear contrast and spacing so it stands out within the compact contact block;
 - use the supplied agent headshot for the named host/promoter and preserve identity, facial features, age, expression, skin tone, hair, and overall appearance;
 - use the complete supplied brokerage logo without redrawing, cropping, recoloring, stretching, rearranging, or replacing it;
 - reproduce the exact verified names, roles, contact details, license number, address, price, event details, property facts, listing attribution, and disclosures;

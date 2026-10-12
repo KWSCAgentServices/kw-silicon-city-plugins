@@ -56,6 +56,8 @@ The agent portrait must remain visible and recognizable but secondary:
 
 The brokerage logo must remain legible but should not overpower the property. Listing attribution and required disclosures may be visually quieter, but they must remain readable at delivery size.
 
+On every visual containing a contact block, set the phone number slightly larger than the surrounding contact text so it is easy to notice and read. Aim for roughly 10–20% larger than the email, website, role, and license text, adjusting to the format. Give it clear contrast and spacing. This emphasis belongs within the compact contact block; the property headline and imagery retain the overall visual hierarchy.
+
 ## Review standard
 
 Reject and revise any output that:
@@ -68,5 +70,6 @@ Reject and revise any output that:
 - uses too few property photos despite having several useful authorized images and enough layout space;
 - sounds pushy, salesy, self-congratulatory, or focused on the agent rather than buyer value;
 - omits the CTA, attribution, required branding, or measurement qualifiers.
+- shows a phone number at the same size as or smaller than the surrounding contact details, or makes it hard to spot.
 
 Correct visual and copy problems through GPT Image when the artifact is an image-generation deliverable. Do not patch the design afterward with HTML or code.
