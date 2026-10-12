@@ -16,43 +16,69 @@ If no approved template is accessible, use the verified palette plus the recomme
 
 These are design recommendations, not quoted KW requirements:
 
-- Use a strong property-photo focal point, ample white space, and restrained red accents.
-- Establish a clear hierarchy: event/promotion heading, address, date/time or price, concise verified facts, then agent contact and attribution.
+- Make the property the unmistakable visual hero. Use the strongest verified listing photo as the largest focal point and include additional useful property photos when the format and available sources allow. Do not let the agent portrait, name, or branding dominate.
+- Establish a clear hierarchy: verified attention headline, property imagery, address and event/price information, 3–5 concise feature bullets, calm call to action, then a smaller supporting agent/contact block and listing attribution.
 - Use readable sans-serif typography; follow the supplied approved template's fonts when known.
-- Reserve distinct areas for the KWSC host's portrait/contact block, complete brokerage logo, and readable listing-agent credit.
+- Reserve distinct areas for the KWSC host's smaller portrait/contact block, complete brokerage logo, and readable listing-agent credit. The agent must remain noticeable but secondary to the property.
 - For an open house, make the event date/time prominent and label the host explicitly. For another agent's listing, do not imply ownership through headlines or logo placement.
 - Adapt each requested size deliberately; keep credit and branding inside the visible safe area rather than relying on automatic crops.
 
 ## Required image generation
 
-Generate every visual marketing design with the built-in GPT Image tool using the installed imagegen workflow. The user's clarified requirement is GPT Image generation, not proof of a particular backend version. If the tool does not expose its exact version, proceed normally; do not stop, request version confirmation, or fall back to HTML/CSS. Describe the workflow as GPT Image generation without asserting an unverified model version.
+Generate the entire finished marketing design with the built-in GPT Image workflow. The image model—not HTML, CSS, SVG, canvas, scripts, programmatic drawing, or a later compositing step—must perform the layout, typography treatment, photo integration, portrait placement, logo placement, and overall visual polish.
 
-Do not use HTML/CSS, SVG, canvas, or programmatically drawn shapes and text to create the marketing layout in place of GPT Image. Non-generative tools may only assemble the generated design with original protected assets, resize/export it, or package it into a PDF. They must not redesign the generated composition. Deliver the actual generated marketing image, not merely an HTML preview or a promise to generate later.
+Do not generate an empty template for later assembly. Do not add the property photo, agent headshot, logo, text, boxes, or corrections afterward with code or non-generative design tools. Non-generative utilities may only inspect source files or perform a final format conversion or proportional export that does not rebuild or alter the design.
 
-For an explicitly selected API/CLI workflow with configured credentials, use an actual supported GPT Image 2.5 model. [OpenAI's Sunburst documentation](https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst) identifies `gpt-image-2.5-sunburst` for precise image generation/editing. Do not call an invented `gpt-images-2.5` alias or run live API work merely to update this skill.
+Use the strongest GPT Image model exposed by the host. If the host does not disclose an exact backend version, describe it simply as built-in GPT Image and proceed. For an explicitly selected API/CLI workflow with configured credentials, use a supported GPT Image model such as gpt-image-2.5-sunburst; do not invent model names or start API work merely to update this skill.
 
-Provide the source listing photos, complete supplied logo, and accessible KW template as labeled inputs. Inspect local inputs first. Reserve an empty portrait area for the matched host's original Drive headshot. Do not generate the agent's face as part of the design. Prompt with:
+## Complete source packet gate
 
-- intended format and dimensions;
-- template-derived composition or recommended KW-aligned layout;
-- exact verified property and event copy;
-- exact KWSC host/promoter name, role, contact details, and license details when needed;
-- exact "Listed by [verified name(s)]" line and actual listing brokerage when sourced;
-- photo and logo preservation instructions, plus an empty portrait area for later placement of the original headshot;
-- legible attribution and required branding on every independent output.
+Before invoking GPT Image, finish collecting and verifying all inputs:
 
-Do not ask the model to reconstruct the logo or invent a property photo. Image generation is for composing the marketing design while preserving supplied subjects and assets.
+- original listing photos that are visually confirmed to belong to the supplied listing;
+- the matched KWSC agent's original Drive headshot, unless the user explicitly authorized a no-portrait draft after disclosure;
+- the complete supplied KW Silicon City logo and any verified agent/team branding;
+- exact address, price, status, beds, baths, property type, MLS number, and selected public features, with every square-foot value individually formatted as "Approx. [number] sq. ft.";
+- exact event date and time;
+- exact KWSC host/promoter name, role, phone, email, website, and license details needed for the piece;
+- exact listing-agent name(s), listing brokerage, and the required "Listed by" line;
+- required disclosures, intended dimensions, platform, and approved template or style reference.
+- finalized property-first copy: one verified attention headline, at most one brief hook, 3–5 short feature bullets, and a calm buyer-focused call to action. Reject dense paragraphs and one-sentence fact dumps before generation.
 
-## Mandatory preservation of the agent's face
+If any required source is unavailable, ambiguous, or unverified, stop and ask the user. Do not send an incomplete packet and ask GPT Image to fill gaps.
 
-Use the exact matched headshot from the authorized Drive library as a separate image layer in the final artifact. GPT Image generates the surrounding design; the original portrait is inserted afterward with a non-generative layout/compositing operation. This assembly step is required to preserve the face and does not replace the requested GPT Image design generation.
+## Generate the complete design
 
-Never synthesize, redraw, swap, beautify, smooth skin, change facial features, expression, age, hair, makeup, skin tone, lighting, or pose. Do not use AI upscaling or enhancement on the face. Allow proportional scaling and an ordinary rectangular or circular frame only when it leaves the face intact. Preserve the original image file.
+Attach the verified listing photos, original headshot, complete logo, and any approved template directly to the GPT Image request as clearly labeled visual inputs. Include the verified source record and exact final copy in the same request. Ask GPT Image to create one complete, polished, publication-ready KW-aligned composition using those supplied assets.
 
-After inserting the original headshot, do not pass the flattened result through image generation for further edits. Edit the surrounding design separately and reinsert the original portrait. If original-image placement is unavailable, deliver a clearly labeled draft with the portrait area empty and explain the limitation; do not substitute a generated face.
+The prompt must explicitly require:
 
-## Verify generated outputs
+- use the supplied listing photos as the actual property imagery; do not synthesize a house from the address or description;
+- make the property the star of the composition, with the strongest real listing photo as the largest visual and additional useful real property photos when the format and verified source set allow;
+- keep the agent portrait, name, and contact block smaller and visually secondary while still noticeable and readable;
+- use the supplied agent headshot for the named host/promoter and preserve identity, facial features, age, expression, skin tone, hair, and overall appearance;
+- use the complete supplied brokerage logo without redrawing, cropping, recoloring, stretching, rearranging, or replacing it;
+- reproduce the exact verified names, roles, contact details, license number, address, price, event details, property facts, listing attribution, and disclosures;
+- put "Approx." directly with every individual square-foot measurement, including living area, lot size, rooms, garages, ADUs, patios, and parcels; never rely only on a general disclaimer;
+- keep "Hosted by" or "Presented by" separate from "Listed by";
+- open with the supplied verified attention headline; keep the body short, use the supplied 3–5 feature bullets, and use a calm value-first call to action. Do not turn the copy into a paragraph, data dump, hype, or pushy sales language;
+- use the requested dimensions, safe margins, hierarchy, KW palette, and approved template guidance;
+- do not add invented features, people, houses, rooms, logos, initials badges, placeholders, or unverified text.
 
-Compare rendered names, phone, email, address, price, dates, license numbers, listing-agent credit, logo, portrait, and property photos against the source record. Regenerate or edit the surrounding design with GPT Image and inspect again, then reinsert the unchanged headshot. An attractive result with a wrong host, omitted listing credit, altered logo, or invented property feature is not ready to deliver. If exact preservation cannot be achieved, report the unresolved issue instead of claiming it passed.
+Provide the most useful real listing photos rather than flooding the model with near-duplicates. Label every input so the property photos, agent headshot, brokerage logo, listing agent, and host/promoter cannot be confused.
 
-Verify portrait provenance by the selected Drive file and original-image layer, not by a claim that a generated face looks similar. Compare the placed portrait with the original to catch distortion, unwanted cropping, or edits. Correct portrait errors by reinserting the original file, never by regeneration.
+## Correct through GPT Image only
+
+Inspect the complete generated result at full size. Compare the property, face, logo, and every material text field against the source packet. Search the visual and accompanying copy for every square-foot value and confirm each one has an adjacent "Approx." qualifier.
+
+If anything is wrong—including a missing or weak headline, dense body copy, facts collapsed into a paragraph, too few useful property photos, or an agent block that competes with the property—send the generated draft back through GPT Image together with the original source assets and focused correction instructions. Reattach the originals on every correction pass so the model does not drift. Corrections must remain inside GPT Image; never patch text, replace photos, insert the headshot, rebuild the logo, or repair the layout with HTML, CSS, SVG, canvas, scripts, or code-based compositing.
+
+Use a small number of focused correction attempts. If GPT Image still cannot preserve the correct property, agent identity, logo, required facts, or an "Approx." qualifier on every square-foot value, stop and tell the user what remains wrong rather than delivering or claiming a publication-ready flyer.
+
+## Property and portrait fidelity
+
+The supplied listing photos are the only acceptable property references. The finished design may crop or scale them for layout, but it must not show a different property, reconstructed exterior or room, stock home, image from another listing, virtual staging, generated landscaping, or an artist's illustration.
+
+The supplied headshot is the only acceptable portrait reference. Do not request or accept a generated replacement, face swap, beauty retouch, altered age, altered expression, altered hair, initials badge, monogram, silhouette, generic avatar, or stock portrait. The agent must remain clearly recognizable as the person in the verified original.
+
+A result that merely resembles the address or agent is not sufficient. Verify against the actual inputs, not plausibility. When fidelity fails, correct through GPT Image with the originals attached again.
