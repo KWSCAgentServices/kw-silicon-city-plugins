@@ -47,6 +47,8 @@ Before invoking GPT Image, finish collecting and verifying all inputs:
 
 If any required source is unavailable, ambiguous, or unverified, stop and ask the user. Do not send an incomplete packet and ask GPT Image to fill gaps.
 
+Apply the [status-specific price and date rules](property-first-copy-and-layout.md#status-specific-price-and-date-rules) before generation. Keep verified source values internally, but send only approved display fields as final copy: no price for In Contract, and no dates for Just Listed or Just Closed unless explicitly requested. An intentionally omitted price or date is not a missing prerequisite and must not trigger a follow-up question.
+
 ## Generate the complete design
 
 Attach the verified listing photos, original headshot, complete logo, and any approved template directly to the GPT Image request as clearly labeled visual inputs. Include the verified source record and exact final copy in the same request. Ask GPT Image to create one complete, polished, publication-ready KW-aligned composition using those supplied assets.
@@ -59,7 +61,7 @@ The prompt must explicitly require:
 - make the phone number slightly larger than the surrounding contact text (roughly 10–20% larger than email, website, role, and license text), with clear contrast and spacing so it stands out within the compact contact block;
 - use the supplied agent headshot for the named host/promoter and preserve identity, facial features, age, expression, skin tone, hair, and overall appearance;
 - use the complete supplied brokerage logo without redrawing, cropping, recoloring, stretching, rearranging, or replacing it;
-- reproduce the exact verified names, roles, contact details, license number, address, price, event details, property facts, listing attribution, and disclosures;
+- reproduce the exact verified names, roles, contact details, license number, address, permitted price and requested event details, property facts, listing attribution, and disclosures from approved display copy; never restore amounts or dates omitted under the status-specific rules;
 - put "Approx." directly with every individual square-foot measurement, including living area, lot size, rooms, garages, ADUs, patios, and parcels; never rely only on a general disclaimer;
 - keep "Hosted by" or "Presented by" separate from "Listed by";
 - open with the supplied verified attention headline; keep the body short, use the supplied 3–5 feature bullets, and use a calm value-first call to action. Do not turn the copy into a paragraph, data dump, hype, or pushy sales language;

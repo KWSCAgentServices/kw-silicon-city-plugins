@@ -18,6 +18,17 @@ Create warmth with welcoming, property-grounded headlines, generous photography,
 
 The home must remain dominant; keep the original, unchanged agent headshot small but assessable and the supporting contact block compact. The phone is slightly larger within that block, not the page's hero. Keep short feature bullets, the low-pressure CTA and readable attribution. Warmth never overrides face, property, fact or logo fidelity. Do not copy a flawed generated example literally.
 
+## Status-specific price and date rules
+
+Apply these rules before drafting copy, assembling GPT Image display copy and reviewing every standalone asset or campaign piece:
+
+- In Contract: when the verified listing status is "In Contract", omit all property price information from public marketing, including list/asking price, contract price, sale price, price ranges and price badges. Apply the omission to visuals, captions, email, flyers, carousels and stories, not just the headline. Use the status and property value/features instead. Apply the same omission to a source-verified equivalent under-contract status, without guessing a status mapping. Do not expose a non-public accepted-offer amount.
+- Just Listed and Just Closed: omit calendar dates by default from the entire announcement, including graphics, captions, body, footer and reusable campaign adaptations. Include dates only when the agent explicitly asks to display them; a date found in the source is not a request. Do not ask whether to include a date when the default is sufficient. Verify listing/closing dates internally to establish the truthful milestone, but keep them out of final marketing copy and the image model's display fields.
+- Verify "Just Closed" against a completed closing; being In Contract, pending or having an estimated closing date does not establish a closed sale. Verify "Just Listed" against listing history as already required.
+- These display rules override generic instructions to show price or dates. They do not remove internal source/retrieval dates, dates in private research or transaction documents, or verified event dates from a separately requested open-house invitation. If an agent expressly requests an open-house announcement together with a Just Listed message, the requested event date/time may appear, but do not add listing dates.
+- Before generation, separate internal verification data from approved display fields. Remove suppressed amounts and dates from display copy and explicitly instruct GPT Image "Do not display any price" for In Contract and "Do not display any calendar date" for date-free milestone pieces. Never ask the model to choose which raw source fields to publish.
+- Reject output that leaks an omitted price/date into a badge, caption or disclosure, or restores it during adaptation or correction. Correct image defects through GPT Image and copy defects before delivery.
+
 ## Mandatory copy hierarchy
 
 Every standalone piece begins with a short, attention-grabbing headline. The headline must be grounded in verified property value or event context, not clickbait. Favor a meaningful differentiator such as usable land, indoor-outdoor living, a verified renovation, a view, flexible space, a location benefit, or the open-house opportunity. If no distinctive feature is verified, use a clear event-led or property-type headline rather than inventing one.
@@ -25,7 +36,7 @@ Every standalone piece begins with a short, attention-grabbing headline. The hea
 After the headline, use this order:
 
 1. Optional one-sentence hook that explains the buyer value in plain language.
-2. Address and price or event details, kept compact.
+2. Address and permitted price or requested event details, kept compact; apply the status-specific price and date rules above first.
 3. Three to five short bullets containing the most important verified facts and differentiators.
 4. A low-pressure call to action focused on helping the buyer, such as scheduling a private tour or getting additional property details.
 5. A compact supporting agent/contact block.

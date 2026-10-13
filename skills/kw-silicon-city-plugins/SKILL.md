@@ -39,6 +39,8 @@ Read [references/full-marketing-campaign.md](references/full-marketing-campaign.
 
 For a newly listed property announcement, prominently lead the visual with the exact words "JUST LISTED" and start the caption with "Just Listed", followed by a concise verified property-benefit subheadline. Apply this to standalone announcements as well as campaign launch posts. Verify the newly listed claim against listing history; an open-house event headline does not replace the listing-launch message.
 
+For In Contract marketing, omit the property price everywhere. For Just Listed and Just Closed announcements, omit dates unless the agent explicitly asks to include them. Apply the full status-specific price and date rules in the copy-and-layout reference before writing, generating or releasing any piece; these override generic price/date display defaults.
+
 ## Completion-first execution
 
 When the user requests a finished deliverable, own the prerequisite research and continue through generation and quality review in the same run whenever the authorized tools and sources permit it.

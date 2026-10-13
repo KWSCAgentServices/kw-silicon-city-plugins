@@ -15,6 +15,8 @@ Unless the agent requests a different set, a full campaign includes these six co
 
 Treat these as separate, publication-ready assets rather than one contact sheet. Use safe standard dimensions when the user does not specify a platform: 1080 × 1350 for portrait feed posts, 1080 × 1080 for square posts, 1080 × 1920 for stories, and 8.5 × 11 inches for the flyer. Honor user-specified sizes and channels instead.
 
+For milestone/status campaigns, apply the [status-specific price and date rules](property-first-copy-and-layout.md#status-specific-price-and-date-rules) to every piece and caption: no price for In Contract; no dates for Just Listed or Just Closed unless explicitly requested. Adapt the campaign set to the verified status rather than falsely using a listing launch, upcoming open house or private-tour CTA for a closed property.
+
 ## Shared campaign system
 
 Collect and verify the source packet once, then reuse it across the campaign. Keep address, price, status, measurements, event details, agent contact information, listing attribution, logo, disclosures, and calls to action consistent everywhere.
