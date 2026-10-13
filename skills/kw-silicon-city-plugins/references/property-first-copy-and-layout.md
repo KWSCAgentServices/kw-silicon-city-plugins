@@ -8,6 +8,16 @@ The property is the hero. Lead with what is valuable, distinctive, or useful to 
 
 Use a helpful, confident, factual tone. Do not sound pushy, self-promotional, or overly sales-driven. Avoid unsupported urgency, hype, generic praise, and agent-centered openings.
 
+## Warm home-first design direction
+
+The user prefers an eye-catching, welcoming editorial design that helps buyers feel the home before deciding to visit. Use that as the default for residential listing marketing unless an approved template or user brief directs otherwise. For first-time buyers, make the home easy to understand without implying affordability or buyer eligibility that has not been verified.
+
+Retrieve and inspect the supplied MLS gallery beyond the first exterior photo. Select complementary original views that tell a useful home story: arrival/exterior, cooking/kitchen, relaxing/living area and, when available, an actual outdoor space or other distinctive room. Prefer one strong hero plus two or more useful supporting views when the format and host reference limit permit; do not flood the model with duplicates. If references are limited, retain the original portrait and complete logo, and distribute additional verified rooms across coordinated pieces rather than silently omitting mandatory assets.
+
+Create warmth with welcoming, property-grounded headlines, generous photography, readable editorial typography, soft warm surrounding neutrals and restrained KW red accents. Keep the complete logo unchanged. Evocative captions such as "Room to gather" or "Space to unwind" must match the photographed space. Do not alter the actual photos' lighting, scenery or rooms; add furniture, people, family scenes or decor; or use virtually staged photos as real property photography. Convey everyday living and belonging inclusively, without preferences about familial status or other protected characteristics.
+
+The home must remain dominant; keep the original, unchanged agent headshot small but assessable and the supporting contact block compact. The phone is slightly larger within that block, not the page's hero. Keep short feature bullets, the low-pressure CTA and readable attribution. Warmth never overrides face, property, fact or logo fidelity. Do not copy a flawed generated example literally.
+
 ## Mandatory copy hierarchy
 
 Every standalone piece begins with a short, attention-grabbing headline. The headline must be grounded in verified property value or event context, not clickbait. Favor a meaningful differentiator such as usable land, indoor-outdoor living, a verified renovation, a view, flexible space, a location benefit, or the open-house opportunity. If no distinctive feature is verified, use a clear event-led or property-type headline rather than inventing one.

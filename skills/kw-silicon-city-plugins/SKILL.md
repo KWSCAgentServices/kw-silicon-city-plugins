@@ -31,7 +31,7 @@ Read [references/industry-output-standards.md](references/industry-output-standa
 
 Whenever an output identifies or represents a brokerage person, resolve their current roster identity and role before adding a signature, license, contact block, or headshot. Staff, assistants, mortgage contacts, former agents, and unknown-role records are not automatically current licensed KWSC agents. Never invent a DRE number, REALTOR membership, or brokerage affiliation. A private research task without an agent identity does not require this lookup.
 
-Read [references/kw-design-and-image-generation.md](references/kw-design-and-image-generation.md) for every visual design request.
+Read [references/kw-design-and-image-generation.md](references/kw-design-and-image-generation.md) for every visual design request. The agent's face is a locked photographic asset, not a generative subject: never accept a changed face or a merely recognizable approximation. Apply the original-face release gate in that reference before delivery.
 
 Read [references/property-first-copy-and-layout.md](references/property-first-copy-and-layout.md) for every promotional copywriting or visual-marketing request.
 

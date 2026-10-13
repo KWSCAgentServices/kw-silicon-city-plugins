@@ -18,7 +18,7 @@ These are design recommendations, not quoted KW requirements:
 
 - Make the property the unmistakable visual hero. Use the strongest verified listing photo as the largest focal point and include additional useful property photos when the format and available sources allow. Do not let the agent portrait, name, or branding dominate.
 - Establish a clear hierarchy: verified attention headline, property imagery, address and event/price information, 3–5 concise feature bullets, calm call to action, then a smaller supporting agent/contact block and listing attribution.
-- Use readable sans-serif typography; follow the supplied approved template's fonts when known.
+- Follow an accessible approved template's fonts when known. Otherwise use a high-impact, readable editorial headline with clean supporting typography; a warm serif headline is welcome for the user's preferred home-first direction.
 - Reserve distinct areas for the KWSC host's smaller portrait/contact block, complete brokerage logo, and readable listing-agent credit. The agent must remain noticeable but secondary to the property.
 - For an open house, make the event date/time prominent and label the host explicitly. For another agent's listing, do not imply ownership through headlines or logo placement.
 - Adapt each requested size deliberately; keep credit and branding inside the visible safe area rather than relying on automatic crops.
@@ -76,10 +76,22 @@ If anything is wrong—including a missing or weak headline, dense body copy, fa
 
 Use a small number of focused correction attempts. If GPT Image still cannot preserve the correct property, agent identity, logo, required facts, or an "Approx." qualifier on every square-foot value, stop and tell the user what remains wrong rather than delivering or claiming a publication-ready flyer.
 
+## Original-face release gate
+
+The user's instruction is absolute: never change an agent's face. Treat the verified headshot as an original photographic insert, not inspiration for a generated person. Only proportional scaling and a clean crop are allowed; never crop away identity-critical facial details. Keep the original face, facial proportions, eyes, nose, mouth, teeth, expression, skin texture and tone, age, hairline and hair unchanged. No reconstruction, beautification, smoothing, relighting, expression changes, face swap or approximate likeness. A recognizable person is not enough.
+
+Include this exact constraint in every complete-design and correction prompt: "Place the supplied original headshot as an unchanged photograph. Do not generate, redraw, retouch or modify the face. Crop and scale proportionally only. If exact preservation is not possible, do not substitute a similar face."
+
+Reattach the original headshot on every attempt; never reuse a portrait extracted from a generated flyer. Inspect source and output side by side, with the face enlarged enough to compare individual features, not only as a tiny footer thumbnail. Record pass, fail or unverifiable for the portrait, property, logo and material copy. Any visible facial change is a failure, even when the person remains recognizable. If the portrait is too small to assess or preservation is uncertain, mark it unverifiable, not passed. Do not use face-recognition similarity or layout approval as evidence that the face is unchanged.
+
+Make at most two focused correction attempts through GPT Image with the original assets. If face preservation still fails or cannot be verified, stop the affected visual and report the limitation in one consolidated message; do not call it ready to use or hide the problem behind a design-proof label. Ask for direction only when needed to change workflow or obtain explicit no-portrait authorization. Never bypass the user's complete-GPT-Image workflow with HTML or code compositing. Instructions cannot guarantee pixel-preserving insertion by a generative model; do not promise an absolute technical guarantee that has not been demonstrated.
+
+Approval of a layout approves only its design direction, not a changed face, altered property, logo redraw, missing CTA or other failed release check. Do not bundle private portraits or listing photos into the reusable skill, plugin or GitHub repository.
+
 ## Property and portrait fidelity
 
 The supplied listing photos are the only acceptable property references. The finished design may crop or scale them for layout, but it must not show a different property, reconstructed exterior or room, stock home, image from another listing, virtual staging, generated landscaping, or an artist's illustration.
 
-The supplied headshot is the only acceptable portrait reference. Do not request or accept a generated replacement, face swap, beauty retouch, altered age, altered expression, altered hair, initials badge, monogram, silhouette, generic avatar, or stock portrait. The agent must remain clearly recognizable as the person in the verified original.
+The supplied headshot is the only acceptable portrait source. Do not request or accept a generated replacement, face swap, beauty retouch, altered age, altered expression, altered hair, initials badge, monogram, silhouette, generic avatar, or stock portrait. The face must remain unchanged from the verified original; mere recognizability is not sufficient. Apply the original-face release gate above.
 
 A result that merely resembles the address or agent is not sufficient. Verify against the actual inputs, not plausibility. When fidelity fails, correct through GPT Image with the originals attached again.

@@ -42,7 +42,7 @@ Inspect the rendered output at its final size. Confirm:
 
 - the full logo is visible and legible on every piece;
 - host/promoter labeling and "Listed by" attribution are accurate and legible on every relevant piece and accompanying copy;
-- property and agent photos are not swapped, distorted, clipped, or materially changed from their supplied references;
+- property and agent photos are not swapped, distorted or misleadingly clipped; the agent's face is unchanged, with only proportional scaling and a clean crop allowed. Apply the side-by-side original-face release gate in the design reference. Recognizability alone and approval of the layout do not pass this check;
 - the complete piece was generated and, if necessary, corrected through GPT Image only; no HTML, CSS, SVG, canvas, scripted layout, or code-based compositing was used to rebuild or patch the design;
 - every displayed property is visibly grounded in the verified listing-photo inputs supplied to GPT Image; no different house, reconstructed scene, stock substitute, other-listing image, virtual staging, or artist's illustration appears;
 - every agent-branded visual contains the confidently matched original headshot, unless the user explicitly authorized a no-portrait draft after being told the headshot was unavailable; no initials badge or other portrait substitute appears;

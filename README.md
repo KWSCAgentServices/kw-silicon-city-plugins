@@ -55,6 +55,8 @@ For later plugin import, use a ZIP containing the single kw-silicon-city-plugins
 
 ## Verification status
 
+Version 0.2.3 adopts warm, home-first editorial layouts and complementary original MLS photos. The original agent face is locked: proportional scaling and clean cropping only. Any visible facial change or unverifiable preservation blocks release, even if the person is recognizable or the layout was approved. Compare enlarged source/output faces and allow at most two focused GPT Image corrections. This is a release safeguard, not a claim that generative tools guarantee pixel-identical insertion. Earlier flyer explorations are design examples, not passed fidelity tests.
+
 Version 0.2.1 adds role-aware roster resolution, an optional read-only Python/openpyxl helper, 16 synthetic regression tests, and channel-specific industry checks. Live checks on 2026-10-13 fetched the authoritative roster, matched six identity/ambiguity cases, retrieved and visually inspected an original agent headshot, and checked three agents plus the responsible brokerage against current California DRE records. Private roster records and portraits are not bundled.
 
 Run the synthetic checks with `python tests/test_roster_resolution.py` in an environment with openpyxl. These tests validate the optional resolver, not autonomous behavior of every host/model. The skill remains instructions with host-dependent tools, not an independently deployed all-in-one app. Full GPT Image composition and a complete live campaign remain unverified until tested with a designated agent and authorized listing media. Do not represent the 28 task mappings as 28 end-to-end passed tests.
