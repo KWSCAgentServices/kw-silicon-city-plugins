@@ -1,5 +1,5 @@
 interface:
-  display_name: "KW Silicon City Marketing Agent"
+  display_name: "KW Silicon City Assistant"
   short_description: "Marketing, research, clients, and transaction support"
   icon_small: "./assets/kwsc-realtrends-logo-color.png"
   icon_large: "./assets/kwsc-realtrends-logo-color.png"

@@ -3,7 +3,7 @@
     "category": "Productivity",
     "defaultPrompt": "Help me with my real-estate task. Use the information I provide, gather available verified sources, and deliver the finished result with only essential follow-up questions.",
     "developerName": "KWSC Agent Services",
-    "displayName": "KW Silicon City Marketing Agent",
+    "displayName": "KW Silicon City Assistant",
     "longDescription": "Use plain-language requests for listing campaigns, descriptions, market research, home comparisons, client replies, lead organization, presentations, offer and contract summaries, and transaction checklists. Marketing uses verified listing photos, original Drive headshots, brokerage branding, and accurate listing attribution.",
     "shortDescription": "KWSC marketing and agent support",
     "logo": "./assets/kwsc-plugin-icon-v2.png",
@@ -11,7 +11,7 @@
     "capabilities": []
   },
   "name": "kw-silicon-city-plugins",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Help KW Silicon City agents with marketing, market and property research, client communication, leads, presentations, and offer, contract, and transaction support through simple requests.",
   "author": {
     "name": "KWSC Agent Services",
