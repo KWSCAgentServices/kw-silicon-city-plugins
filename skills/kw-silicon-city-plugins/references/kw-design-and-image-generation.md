@@ -60,7 +60,7 @@ The prompt must explicitly require:
 - keep the agent portrait, name, and contact block smaller and visually secondary while still noticeable and readable;
 - make the phone number slightly larger than the surrounding contact text (roughly 10–20% larger than email, website, role, and license text), with clear contrast and spacing so it stands out within the compact contact block;
 - use the supplied agent headshot for the named host/promoter and preserve identity, facial features, age, expression, skin tone, hair, and overall appearance;
-- use the complete supplied brokerage logo without redrawing, cropping, recoloring, stretching, rearranging, or replacing it;
+- use the complete supplied brokerage logo without redrawing, cropping, recoloring, stretching, rearranging, or replacing it; preserve transparent source regions and place the logo on a plain white backing area, never black or another dark background, even in a dark overall layout. For separately requested background removal, retain genuine transparency or white and remove only the surrounding background, not logo artwork or the embedded badge;
 - reproduce the exact verified names, roles, contact details, license number, address, permitted price and requested event details, property facts, listing attribution, and disclosures from approved display copy; never restore amounts or dates omitted under the status-specific rules;
 - put "Approx." directly with every individual square-foot measurement, including living area, lot size, rooms, garages, ADUs, patios, and parcels; never rely only on a general disclaimer;
 - keep "Hosted by" or "Presented by" separate from "Listed by";

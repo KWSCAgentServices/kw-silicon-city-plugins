@@ -12,7 +12,9 @@ The logo is mandatory on every independently usable marketing piece. For a multi
 
 - Use the complete supplied logo; do not redraw, crop, recolor, rotate, stretch, rearrange, or cover it.
 - Scale proportionally and keep it readable at the final delivery size.
-- Place it on a clean, high-contrast area. The supplied image includes a white canvas; do not remove or alter that background unless the user provides an approved alternate logo.
+- Logo background rule: preserve existing transparency. When the user requests background removal, remove only the surrounding background, not any part of the complete logo artwork, lettering or embedded RealTrends badge. The resulting asset must retain genuine transparency or a plain white background; never fill transparent areas with black.
+- In a finished marketing design, place the complete logo on a plain white backing area, including within a dark layout. Do not place it directly on black or another dark background. Keep logo colors and all artwork unchanged.
+- For a standalone background-removed logo export, use an alpha-capable format such as PNG to preserve transparency. If the destination cannot preserve alpha, flatten onto white, never black. Do not confuse a viewer's dark transparency preview with an actual black background; inspect alpha and the final intended placement before approving.
 - Keep comfortable clear space around it and away from trim, fold, crop, and platform-safe-area boundaries.
 - Do not place agent portraits, listing photos, QR codes, or text over the logo.
 - If the logo cannot be legible in the requested size, simplify the layout or increase the canvas rather than omitting it.
@@ -40,7 +42,7 @@ The logo is mandatory on every independently usable marketing piece. For a multi
 
 Inspect the rendered output at its final size. Confirm:
 
-- the full logo is visible and legible on every piece;
+- the full logo is visible and legible on every piece, with unchanged artwork on white; standalone background-removed logo assets retain transparency or white, never an added black background. Reject a black-filled export or black/dark placement and correct it before release;
 - host/promoter labeling and "Listed by" attribution are accurate and legible on every relevant piece and accompanying copy;
 - property and agent photos are not swapped, distorted or misleadingly clipped; the agent's face is unchanged, with only proportional scaling and a clean crop allowed. Apply the side-by-side original-face release gate in the design reference. Recognizability alone and approval of the layout do not pass this check;
 - the complete piece was generated and, if necessary, corrected through GPT Image only; no HTML, CSS, SVG, canvas, scripted layout, or code-based compositing was used to rebuild or patch the design;
