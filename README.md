@@ -2,6 +2,14 @@
 
 A skills-only Agent Plugins 1.0 package for KW Silicon City real estate marketing.
 
+## Everyday agent support with simple requests
+
+The assistant also helps with property and market research, comparable analyses, neighborhood reports, client profiles, buyer/seller replies, follow-ups, lead organization, presentations, objection handling, personal branding, offer and contract summaries, transaction checklists, and an integrated weekly workflow. All 28 topics from the supplied task list are mapped in the skill's agent task playbook. Agents do not need a complex prompt.
+
+Try: "Compare these homes", "Write a description for this listing", "Reply to this buyer", "Organize these leads", "Prepare my listing presentation", "Summarize this offer", or "Build a checklist for this escrow". Supply the relevant link, notes, or document; the assistant retrieves what it can and asks only for essential missing information.
+
+These workflows provide evidence-based research and document support. Connected service access and artifact-generation capabilities depend on the host. The package does not itself provide an MLS feed, CRM integration, message delivery, professional appraisal, legal review, or accredited course certificate.
+
 ## What it does
 
 - Looks up the user-designated KWSC host or promoting agent in the current Drive roster.
