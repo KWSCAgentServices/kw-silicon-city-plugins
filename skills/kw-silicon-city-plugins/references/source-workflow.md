@@ -33,6 +33,12 @@ Discover the workbook structure rather than assuming fixed sheet names or column
 
 Keep only fields necessary for the current artifact. Do not reproduce the full roster.
 
+Inspect role and status across sheets before deciding publication eligibility. Current-agent sheets, former/left-agent sheets, STAFF, and assistant/mortgage sheets are distinct populations. A former-agent match must not receive current KWSC branding without verified current affiliation. A staff match can support their actual staff role, but must not be labeled a licensed agent or REALTOR without separate evidence. Missing contact fields remain missing; never fill them from another row.
+
+The optional read-only helper `scripts/resolve_roster.py` accepts a freshly retrieved workbook path and a full name, email, phone, or eight-digit DRE identifier. It requires Python and openpyxl; if unavailable, inspect the workbook through connected spreadsheet tooling instead. It handles changing headers, sparse rows, aliases, and separate role sheets, returns only a minimal allowlisted record, never executes macros, and never establishes licensing by itself. Resolve any `needs_identifier`, `ambiguous`, or `not_found` result before branded work. Unknown sheets require manual role verification.
+
+Retain the workbook modification/retrieval date and matched sheet/row internally. A roster expiration earlier than today is a stale-license flag, not proof that the person is currently expired. Check California DRE's official public license lookup by the exact license ID, including record date, status and responsible broker. A cached search page is not a current verification. Verify the brokerage trade-name/legal-name relationship before using the broker identification. When current licensing or affiliation cannot be established for public advertising, do all other preparation and return the exact remaining verification need in one consolidated question. Never silently claim legal compliance.
+
 ## Read the listing source
 
 Prefer the exact URL supplied by the user. Record the page URL and retrieval date. Extract only visible, attributable fields such as:

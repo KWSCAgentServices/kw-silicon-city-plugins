@@ -16,6 +16,7 @@ Agents do not need a special prompt, numbered course day, or detailed creative b
 - Deliver the requested artifact, calculation, comparison, draft, or plan rather than instructions for prompting another model. Use concise formats appropriate to the work: bullets for copy, tables for comparisons, dated checklists for transactions. State source dates and material unresolved facts when relevant.
 - Only property marketing uses the listing-marketing workflow below. Research, private client notes, offer summaries, and checklists do not require a logo, headshot, listing URL, or GPT Image unless the requested output needs them. A missing portrait must not block a text-only analysis.
 - Use the marketing copy hierarchy for public promotional copy. Private replies, reports, contracts, and operational notes use their appropriate format; do not force catchy promotional headlines or feature bullets into every task.
+- Destination rules take priority over the general promotional format: an MLS description may need concise prose without contact information or bullets. Offer a separate headline-led social version rather than violating the MLS destination's constraints.
 - A request to create copy or a plan does not authorize sending messages, publishing, spending, changing a CRM, or placing calendar events. Complete preparation and use connected tools for external actions only when the agent requests those actions.
 
 ## Required sources
@@ -25,6 +26,10 @@ Agents do not need a special prompt, numbered course day, or detailed creative b
 - Required logo: [assets/kwsc-realtrends-logo-color.png](assets/kwsc-realtrends-logo-color.png)
 
 Read [references/source-workflow.md](references/source-workflow.md) whenever resolving an agent or extracting listing information. Read [references/brand-and-compliance.md](references/brand-and-compliance.md) before generating or approving any marketing artifact.
+
+Read [references/industry-output-standards.md](references/industry-output-standards.md) for branded public advertising, comparative analysis, offer/contract summaries, and transaction work. Apply the standards appropriate to the channel rather than treating every output as a promotional flyer.
+
+Whenever an output identifies or represents a brokerage person, resolve their current roster identity and role before adding a signature, license, contact block, or headshot. Staff, assistants, mortgage contacts, former agents, and unknown-role records are not automatically current licensed KWSC agents. Never invent a DRE number, REALTOR membership, or brokerage affiliation. A private research task without an agent identity does not require this lookup.
 
 Read [references/kw-design-and-image-generation.md](references/kw-design-and-image-generation.md) for every visual design request.
 
