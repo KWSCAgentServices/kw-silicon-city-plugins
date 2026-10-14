@@ -35,6 +35,8 @@ Read [references/kw-design-and-image-generation.md](references/kw-design-and-ima
 
 Read [references/property-first-copy-and-layout.md](references/property-first-copy-and-layout.md) for every promotional copywriting or visual-marketing request. Apply its purpose-led flyer guide: strongest relevant hero photo, benefit/event/result-led headline, secondary essentials, 3–5 bullets, one action and one phone, useful verified QR only, no visual clutter. Purpose-specific rules take precedence over generic headline/contact defaults.
 
+Use the approved warm editorial standard in the copy-and-layout reference as the residential-marketing default: ivory/cream, KW-red headline emphasis, charcoal contrast, elegant serif type, restrained handwritten photo captions and cohesive real-home photography. Include the matched person's verified email alongside the single primary phone by default; keep both compact. Do not add review labels to artwork unless requested. All source and readiness safeguards still apply.
+
 Read [references/full-marketing-campaign.md](references/full-marketing-campaign.md) whenever the user requests a full campaign, complete marketing package, launch package, open-house campaign, or another coordinated multi-asset deliverable.
 
 For a newly listed property announcement, prominently lead the visual with the exact words "JUST LISTED" and start the caption with "Just Listed", followed by a concise verified property-benefit subheadline. Apply this to standalone announcements as well as campaign launch posts. Verify the newly listed claim against listing history; an open-house event headline does not replace the listing-launch message.
