@@ -11,7 +11,7 @@
     "capabilities": []
   },
   "name": "kw-silicon-city-plugins",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Help KW Silicon City agents with marketing, market and property research, client communication, leads, presentations, and offer, contract, and transaction support through simple requests.",
   "author": {
     "name": "KWSC Agent Services",

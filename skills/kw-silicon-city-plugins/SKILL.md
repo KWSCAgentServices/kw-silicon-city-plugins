@@ -33,7 +33,7 @@ Whenever an output identifies or represents a brokerage person, resolve their cu
 
 Read [references/kw-design-and-image-generation.md](references/kw-design-and-image-generation.md) for every visual design request. The agent's face is a locked photographic asset, not a generative subject: never accept a changed face or a merely recognizable approximation. Apply the original-face release gate in that reference before delivery.
 
-Read [references/property-first-copy-and-layout.md](references/property-first-copy-and-layout.md) for every promotional copywriting or visual-marketing request.
+Read [references/property-first-copy-and-layout.md](references/property-first-copy-and-layout.md) for every promotional copywriting or visual-marketing request. Apply its purpose-led flyer guide: strongest relevant hero photo, benefit/event/result-led headline, secondary essentials, 3–5 bullets, one action and one phone, useful verified QR only, no visual clutter. Purpose-specific rules take precedence over generic headline/contact defaults.
 
 Read [references/full-marketing-campaign.md](references/full-marketing-campaign.md) whenever the user requests a full campaign, complete marketing package, launch package, open-house campaign, or another coordinated multi-asset deliverable.
 

@@ -17,7 +17,7 @@ If no approved template is accessible, use the verified palette plus the recomme
 These are design recommendations, not quoted KW requirements:
 
 - Make the property the unmistakable visual hero. Use the strongest verified listing photo as the largest focal point and include additional useful property photos when the format and available sources allow. Do not let the agent portrait, name, or branding dominate.
-- Establish a clear hierarchy: verified attention headline, property imagery, address and event/price information, 3–5 concise feature bullets, calm call to action, then a smaller supporting agent/contact block and listing attribution.
+- Follow the [purpose-led flyer guide](property-first-copy-and-layout.md#purpose-led-flyer-guide): one strongest relevant hero photo (an interior may lead), benefit/event/result headline, secondary address and permitted price, 3–5 bullets, one action and one phone, then compact supporting identity and attribution. A verified sold-result campaign may lead copy with the result and agent name without implying unverified participation.
 - Follow an accessible approved template's fonts when known. Otherwise use a high-impact, readable editorial headline with clean supporting typography; a warm serif headline is welcome for the user's preferred home-first direction.
 - Reserve distinct areas for the KWSC host's smaller portrait/contact block, complete brokerage logo, and readable listing-agent credit. The agent must remain noticeable but secondary to the property.
 - For an open house, make the event date/time prominent and label the host explicitly. For another agent's listing, do not imply ownership through headlines or logo placement.
@@ -66,7 +66,9 @@ The prompt must explicitly require:
 - keep "Hosted by" or "Presented by" separate from "Listed by";
 - open with the supplied verified attention headline; keep the body short, use the supplied 3–5 feature bullets, and use a calm value-first call to action. Do not turn the copy into a paragraph, data dump, hype, or pushy sales language;
 - use the requested dimensions, safe margins, hierarchy, KW palette, and approved template guidance;
-- do not add invented features, people, houses, rooms, logos, initials badges, placeholders, or unverified text.
+- do not add invented features, people, houses, rooms, logos, initials badges, placeholders, or unverified text;
+- omit clip art, decorative feature icons, gradients, novelty fonts and excessive contact options. Use one action and one verified phone; email and other channels are absent by default unless requested or required. Include a QR only under the useful-destination and finished-scan-verification rule; otherwise omit it;
+- ensure the appeal/purpose, essential facts and next step are immediately clear; remove competing elements before release.
 
 Provide the most useful real listing photos rather than flooding the model with near-duplicates. Label every input so the property photos, agent headshot, brokerage logo, listing agent, and host/promoter cannot be confused.
 
