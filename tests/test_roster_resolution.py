@@ -67,6 +67,47 @@ class ResolutionTests(unittest.TestCase):
     def test_no_implicit_license_verification(self):
         self.assertEqual(module.resolve(self.records, 'Alex Tran')['eligibility'], 'verify_license_and_affiliation')
 
+    def test_unknown_private_fields_are_dropped(self):
+        records = [row('Alex Tran', home_address='PRIVATE_ADDRESS', spouse='PRIVATE_FAMILY',
+                       children=['PRIVATE_CHILD'], private_notes='PRIVATE_NOTES')]
+        result = module.resolve(records, 'Alex Tran')
+        self.assertNotIn('PRIVATE_', str(result))
+
+    def test_public_projection_is_contact_only(self):
+        records = [row('Alex Tran', email='alex@example.test', phone='408-555-0101',
+                       license='01234567', expiration='INTERNAL_DATE', role='INTERNAL_ROLE',
+                       sheet='INTERNAL_SHEET', row=42, home_address='PRIVATE_ADDRESS')]
+        result = module.public_contact_result(module.resolve(records, 'Alex Tran'))
+        self.assertEqual(set(result['record']), {'name', 'email', 'phone', 'license'})
+        self.assertNotIn('INTERNAL_', str(result))
+        self.assertNotIn('PRIVATE_', str(result))
+
+    def test_ambiguous_public_projection_does_not_share_internal_categories(self):
+        result = module.public_contact_result(module.resolve(self.records, 'Alex'))
+        self.assertEqual(result['status'], 'needs_identifier')
+        self.assertTrue(all(set(item) == {'name'} for item in result['candidates']))
+
+    def test_workbook_private_columns_and_unknown_name_headers(self):
+        import openpyxl
+        with tempfile.TemporaryDirectory() as directory:
+            book = openpyxl.Workbook()
+            book.active.title = 'Agent Roster'
+            book.active.append(['Agent Name', 'Email', 'Phone', 'DRE', 'Home Address',
+                                'Spouse', 'Children', 'Emergency Contact', 'Private Notes'])
+            book.active.append(['Alex Tran', 'alex@example.test', '408-555-0101', '01234567',
+                                'PRIVATE_ADDRESS', 'PRIVATE_SPOUSE', 'PRIVATE_CHILD',
+                                'PRIVATE_EMERGENCY', 'PRIVATE_NOTES'])
+            unknown = book.create_sheet('Unknown')
+            unknown.append(['Home Address', 'Family Members'])
+            unknown.append(['PRIVATE_HOME_AS_NAME', 'PRIVATE_FAMILY'])
+            file = pathlib.Path(directory) / 'privacy-fixture.xlsx'
+            book.save(file)
+            records = module.rows_from_workbook(file)
+            self.assertEqual(len(records), 1)
+            self.assertNotIn('PRIVATE_', str(records))
+            contact = module.public_contact_result(module.resolve(records, 'Alex Tran'))
+            self.assertEqual(set(contact['record']), {'name', 'email', 'phone', 'license'})
+
     def test_sparse_workbook_and_role_sheets(self):
         import openpyxl
         with tempfile.TemporaryDirectory() as directory:

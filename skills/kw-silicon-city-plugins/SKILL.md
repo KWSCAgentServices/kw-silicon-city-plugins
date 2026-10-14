@@ -19,6 +19,12 @@ Agents do not need a special prompt, numbered course day, or detailed creative b
 - Destination rules take priority over the general promotional format: an MLS description may need concise prose without contact information or bullets. Offer a separate headline-led social version rather than violating the MLS destination's constraints.
 - A request to create copy or a plan does not authorize sending messages, publishing, spending, changing a CRM, or placing calendar events. Complete preparation and use connected tools for external actions only when the agent requests those actions.
 
+## Roster privacy: contact-only disclosure
+
+When accessing the roster, share only the matched person's name for identification, verified business phone/email or professional website, and DRE number. Never disclose home or mailing addresses, family members or relationships, emergency contacts, birthdays, financial data, private notes, or other sensitive personal information. A personal mobile or email is usable only when designated as that agent's business contact; never use family or emergency-contact fields.
+
+Apply this allowlist to all replies, files, exports, marketing copy, image-generation prompts, and data passed to other tools. Never attach or forward the roster itself to a design tool. Keep role, eligibility, sheet/row provenance, and license-expiration checks internal. Retrieve only necessary fields and filter before displaying or passing data onward. Do not include private values even in an explanation or when a user asks for a full row; offer business contact details and DRE instead. Follow the detailed privacy gate in the source workflow before every handoff.
+
 ## Required sources
 
 - Agent roster: `https://drive.google.com/file/d/1AqnCHAObsCt2A25V8D886hV1JIOpySAz/view?usp=sharing`
@@ -97,7 +103,7 @@ Do not expose the entire roster, hidden workbook content, private MLS fields, ac
 
 ## Marketing release checklist
 
-- Correct agent match; no cross-agent data leakage.
+- Correct agent match; no cross-agent data leakage. Roster-derived output and downstream prompts contain only identifying name, verified business contacts, and DRE; no home address, family details, private notes, internal eligibility metadata, or raw roster attachments.
 - Before reporting a blocker, the authorized roster, headshot-library, listing-media, and current-fact recovery paths have been completed. The user receives one consolidated request only when a genuine blocker remains; otherwise the workflow continues to the ready-to-use deliverable.
 - Current price, listing status, and event availability have been verified against the newest accessible authoritative source. When the supplied page is dated or stale, a second current source corroborates the values or the unresolved conflict blocks publication-ready delivery.
 - The finished GPT Image design contains the confidently matched original Drive headshot as a supplied source reference, and the agent remains clearly recognizable with no material facial alteration. Never deliver an approximation, initials badge, monogram, silhouette, generic avatar, or other substitute. If the headshot is unavailable or uncertain, visual generation has stopped and the user has been asked what to do.

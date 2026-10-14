@@ -4,6 +4,21 @@ import json
 import re
 import unicodedata
 
+# Internal verification metadata is never part of the public contact projection.
+INTERNAL_FIELDS = ('name', 'email', 'phone', 'license', 'expiration', 'role', 'category', 'sheet', 'row')
+PUBLIC_FIELDS = ('name', 'email', 'phone', 'license')
+
+
+def public_contact_result(result):
+    """Project a lookup result onto contact-only fields; never return raw records."""
+    output = {'status': result['status']}
+    if result['status'] == 'matched':
+        output['record'] = {key: result['record'][key] for key in PUBLIC_FIELDS
+                            if result['record'].get(key) is not None}
+    elif 'candidates' in result:
+        output['candidates'] = [{'name': item['name']} for item in result['candidates']]
+    return output
+
 
 def normalize(value):
     text = unicodedata.normalize('NFKD', str(value or '')).casefold()
@@ -37,7 +52,7 @@ def rows_from_workbook(path):
                         'agent_candidate' if any(s in sheet_key for s in ('roster', 'agent')) else 'unknown')
             for number, row in enumerate(iterator, 2):
                 first, last = get(row, 'first name'), get(row, 'last name')
-                full = get(row, 'full name', 'display name', 'name') or (str(row[0]).strip() if row and row[0] else None)
+                full = get(row, 'full name', 'display name', 'name', 'agent name', 'associate name')
                 if not full and not first and not last:
                     continue
                 combined = ' '.join(v for v in (first, last) if v)
@@ -78,8 +93,7 @@ def resolve(records, query):
     if len(matches) != 1:
         return {'status': 'ambiguous' if matches else 'not_found', 'candidates':
                 [{'name': r['name'], 'category': r['category']} for r in matches]}
-    record = dict(matches[0])
-    record.pop('aliases', None)
+    record = {key: matches[0][key] for key in INTERNAL_FIELDS if key in matches[0]}
     return {'status': 'matched', 'evidence': evidence, 'record': record,
             'eligibility': 'verify_license_and_affiliation' if record['category'] == 'agent_candidate'
             else 'not_established_as_current_agent'}
@@ -89,5 +103,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('workbook')
     parser.add_argument('query')
+    parser.add_argument('--public', action='store_true', help='Return only identifying name, business contacts and DRE.')
     args = parser.parse_args()
-    print(json.dumps(resolve(rows_from_workbook(args.workbook), args.query), ensure_ascii=False))
+    result = resolve(rows_from_workbook(args.workbook), args.query)
+    print(json.dumps(public_contact_result(result) if args.public else result, ensure_ascii=False))
