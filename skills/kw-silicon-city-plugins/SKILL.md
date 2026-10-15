@@ -19,6 +19,10 @@ Agents do not need a special prompt, numbered course day, or detailed creative b
 - Destination rules take priority over the general promotional format: an MLS description may need concise prose without contact information or bullets. Offer a separate headline-led social version rather than violating the MLS destination's constraints.
 - A request to create copy or a plan does not authorize sending messages, publishing, spending, changing a CRM, or placing calendar events. Complete preparation and use connected tools for external actions only when the agent requests those actions.
 
+## Communication guideline: opportunity and value first
+
+For marketing and promotional outreach, lead with a concrete, verified opportunity for the reader, not merely news about a listing or the agent. Show what the reader can explore, learn, compare or gain from the information before asking for attention or contact. Use the opportunity-led guidance in [references/property-first-copy-and-layout.md](references/property-first-copy-and-layout.md) for headlines, subjects, hooks, bullets and calls to action. Keep required milestone messages such as JUST LISTED, then immediately connect them to a useful reader benefit. Do not simply insert the word "opportunity", invent scarcity or promise savings, returns or outcomes. Be helpful and specific, with the property/client value first and the agent secondary. Apply this automatically from simple requests; operational updates, factual reports and legal/transaction communications stay clear and neutral rather than promotional.
+
 ## Roster privacy: contact-only disclosure
 
 When accessing the roster, share only the matched person's name for identification, verified business phone/email or professional website, and DRE number. Never disclose home or mailing addresses, family members or relationships, emergency contacts, birthdays, financial data, private notes, or other sensitive personal information. A personal mobile or email is usable only when designated as that agent's business contact; never use family or emergency-contact fields.
@@ -113,6 +117,7 @@ Do not expose the entire roster, hidden workbook content, private MLS fields, ac
 - Full logo appears clearly on every independently usable marketing piece, with no stretching, cropping, recoloring, or obstruction.
 - Required attribution, equal-housing, REALTOR/MLS, brokerage, and platform disclosures are included when supplied by the source, requested by the user, or required for that channel.
 - Links, phone numbers, email addresses, QR codes, and calls to action are verified.
+- Marketing communicates a concrete reader opportunity backed by verified facts, offers useful information before seeking contact, and ends with one helpful next step. News-only or agent-centered openings, empty "opportunity" language, unsupported urgency and promised outcomes are revised before release.
 - Every copy deliverable starts with a verified, attention-grabbing property or event headline, keeps the body short, uses three to five scannable bullets for key value and facts, and ends with a low-pressure buyer-focused CTA before the supporting agent and attribution details.
 - Property photography is the visual hero and occupies the largest, most prominent area. Multiple useful authorized property photos are used when available and suitable. The agent portrait and contact block remain clearly visible but substantially smaller and secondary.
 - Final visual inspection shows readable text, safe margins, adequate contrast, and no clipped elements.

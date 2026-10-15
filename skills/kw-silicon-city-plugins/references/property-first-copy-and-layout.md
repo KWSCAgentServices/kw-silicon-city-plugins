@@ -8,6 +8,29 @@ The property is the hero. Lead with what is valuable, distinctive, or useful to 
 
 Use a helpful, confident, factual tone. Do not sound pushy, self-promotional, or overly sales-driven. Avoid unsupported urgency, hype, generic praise, and agent-centered openings.
 
+## Opportunity-led communication
+
+Default to opportunity-led, value-first communication across listing copy, flyers, social posts, email subjects and bodies, campaign pieces, invitations and promotional follow-ups. The reader should quickly understand "What can this help me do or decide?" rather than only "What happened?" Deliver useful value in the message itself before asking the reader to contact the agent. Do not gate every useful detail behind a lead-capture invitation.
+
+Translate a verified feature or update into a modest, concrete reader benefit: a kitchen island can offer additional preparation space; a verified patio offers an outdoor space to explore; an open house offers a chance to assess the layout in person. Keep the distinction between the verified fact and a possible use clear. Do not infer permitted additions, subdivision, rental income, affordability, financing eligibility, investment returns, market bargains or future appreciation from lot size, price or appearance alone.
+
+Use this communication arc within the existing short, scannable copy hierarchy:
+
+1. Attention through relevance: lead with a specific opportunity or benefit that matters to the intended reader. Retain mandatory JUST LISTED, OPEN HOUSE or truthful closing/status messaging; immediately pair it with the reader-facing value. A generic "New listing" or "Market update" alone is not a sufficient hook.
+2. Value before promotion: provide three to five concise, verified details explaining what is worth exploring or understanding. Connect features to everyday use without fabricating improvements or overstating suitability. Keep essentials and applicable attribution visible.
+3. A useful next step: offer one relevant action, such as viewing the expanded gallery, exploring the home in person, or reviewing comparable properties. State what the reader will receive or be able to assess, not merely "Call me" or "Don't miss out." Keep the request low-pressure and the agent/contact block secondary.
+
+"Opportunity" describes the framing, not a required keyword or a claim that every home is a bargain. Avoid repetitive "amazing opportunity" phrasing, FOMO, invented deadlines, guaranteed results, or unsupported "rare", "exclusive" and "below market" claims. Do not assert that this framing increases conversions without measured evidence. Remain inclusive; do not target or exclude people using protected characteristics.
+
+Examples below illustrate framing only, not current listing facts or ready-to-publish claims:
+
+- With a verified island and pantry: replace "New listing with a kitchen island and pantry" with "Just Listed | More room to prep, cook and keep essentials organized." Follow with the actual verified details, not an invented renovation claim.
+- With a verified open-house event: replace "Open house this weekend" with "Open House | Walk through the layout and see how the spaces connect." Include the verified event details and a useful invitation; do not invent an event date.
+- With sourced market data: replace "Here is the latest market news" with "Considering a move? See what recent comparable sales can help you evaluate." Include the actual dated findings and limitations; do not promise a price or treat an entire market as a bargain.
+- For a verified closing: keep the truthful closing result and actual agent role, then offer a practical takeaway or comparison relevant to nearby owners. Do not turn a sold home into an available buying opportunity or imply the result is guaranteed for another seller.
+
+Before release, check that the benefit has supporting evidence, useful detail is already present, the next step helps the reader, and the agent is not the main story. Apply status-specific price/date omissions, Approx. measurement qualifiers, roster privacy, original-photo/face rules and destination requirements unchanged. Do not force promotional opportunity language into contract summaries, safety notices, transaction deadlines, neutral research or routine operational replies.
+
 ## Purpose-led flyer guide
 
 Determine the flyer's communication job from the request and verified status before choosing headline, hero photo, facts and action. These purpose rules override generic hierarchy defaults, but never override truth, attribution, identity or status-specific price/date safeguards.
@@ -125,6 +148,7 @@ Reject and revise any output that:
 - makes the agent, portrait, agent name, or brokerage branding more prominent than the property;
 - uses too few property photos despite having several useful authorized images and enough layout space;
 - sounds pushy, salesy, self-congratulatory, or focused on the agent rather than buyer value;
+- merely announces news without a concrete reader benefit, withholds all useful detail until contact, or uses empty opportunity language instead of evidence;
 - omits the CTA, attribution, required branding, or measurement qualifiers.
 - shows a phone number at the same size as or smaller than the surrounding contact details, or makes it hard to spot.
 
