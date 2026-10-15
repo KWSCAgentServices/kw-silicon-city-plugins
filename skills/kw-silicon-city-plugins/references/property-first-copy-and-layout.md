@@ -2,6 +2,8 @@
 
 Use this structure for every flyer, social caption, email, postcard, brochure panel, carousel card, and other marketing piece.
 
+Apply [plain-writing.md](plain-writing.md) when drafting and reviewing all copy, including headline, CTA, caption and text supplied to GPT Image. Keep the required short feature bullets and milestone messages; write them without stock slogans, inflated claims or repeated rhetorical patterns.
+
 ## Core principle
 
 The property is the hero. Lead with what is valuable, distinctive, or useful to the prospective buyer. Agent identity, portrait, and contact information support the property presentation; they must never dominate it.
@@ -24,7 +26,7 @@ Use this communication arc within the existing short, scannable copy hierarchy:
 
 Examples below illustrate framing only, not current listing facts or ready-to-publish claims:
 
-- With a verified island and pantry: replace "New listing with a kitchen island and pantry" with "Just Listed | More room to prep, cook and keep essentials organized." Follow with the actual verified details, not an invented renovation claim.
+- With a verified island and pantry: replace "New listing with a kitchen island and pantry" with "Just Listed | Extra prep space and pantry storage." Follow with the actual verified details, without adding a renovation claim.
 - With a verified open-house event: replace "Open house this weekend" with "Open House | Walk through the layout and see how the spaces connect." Include the verified event details and a useful invitation; do not invent an event date.
 - With sourced market data: replace "Here is the latest market news" with "Considering a move? See what recent comparable sales can help you evaluate." Include the actual dated findings and limitations; do not promise a price or treat an entire market as a bargain.
 - For a verified closing: keep the truthful closing result and actual agent role, then offer a practical takeaway or comparison relevant to nearby owners. Do not turn a sold home into an available buying opportunity or imply the result is guaranteed for another seller.
@@ -138,6 +140,8 @@ The brokerage logo must remain legible but should not overpower the property. Li
 On every visual containing a contact block, set the phone number slightly larger than the surrounding contact text so it is easy to notice and read. Aim for roughly 10–20% larger than the email, website, role, and license text, adjusting to the format. Give it clear contrast and spacing. This emphasis belongs within the compact contact block; the property headline and imagery retain the overall visual hierarchy.
 
 ## Review standard
+
+Complete the final editorial pass in plain-writing.md before releasing copy or sending display text to GPT Image. Check the image's rendered wording again before delivery.
 
 Reject and revise any output that:
 

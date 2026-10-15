@@ -53,6 +53,10 @@ For a newly listed property announcement, prominently lead the visual with the e
 
 For In Contract marketing, omit the property price everywhere. For Just Listed and Just Closed announcements, omit dates unless the agent explicitly asks to include them. Apply the full status-specific price and date rules in the copy-and-layout reference before writing, generating or releasing any piece; these override generic price/date display defaults.
 
+## Writing preference
+
+Read [references/plain-writing.md](references/plain-writing.md) before drafting or revising copy, captions, emails, texts, reports or prose replies. Apply the user's October 15, 2026 preference for direct, specific writing and review the finished text against it. This updates the writing style while preserving factual, branding and attribution requirements.
+
 ## Completion-first execution
 
 When the user requests a finished deliverable, own the prerequisite research and continue through generation and quality review in the same run whenever the authorized tools and sources permit it.
