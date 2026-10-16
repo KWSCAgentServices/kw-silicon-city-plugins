@@ -2,6 +2,8 @@
 
 Use this reference when matching an agent, reading the KWSC roster, or extracting listing facts and photos.
 
+Apply [accuracy-and-verification.md](accuracy-and-verification.md) alongside this workflow. Keep claim-level source evidence and distinguish source-reported facts, independent checks, user confirmations and calculations. Only approved display fields go to downstream tools; exclude unresolved essential claims and all private roster fields.
+
 ## Finish verification before escalating
 
 Treat missing prerequisites as work to perform, not as an immediate reason to return a status message. Continue through every applicable authorized step below before asking the user:
@@ -146,6 +148,7 @@ Before authoring, retain a compact working record with:
 - listing agent(s), brokerage, source, and exact "Listed by" line;
 - verified property fields and their source, retaining raw square-foot values plus the required "Approx." display formatting;
 - selected original listing-photo files or URLs, same-listing verification evidence, and retrieval date;
-- unresolved conflicts, omissions, and permissions limitations.
+- unresolved conflicts, omissions, and permissions limitations;
+- claim-level source location, source update/data period, verification status and calculation inputs/method where applicable; keep this evidence internal and privacy-filtered.
 
 Use the record internally for consistency across every output size. Never include the internal record or raw roster row in a final piece. Even when the user requests supporting source details, filter roster information to the identifying name, verified business contacts and DRE; keep private and internal verification fields out of all shared packets.

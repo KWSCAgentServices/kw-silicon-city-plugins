@@ -2,6 +2,8 @@
 
 Apply this preference to KWSC copy, captions, emails, texts, reports and replies.
 
+Apply [accuracy-and-verification.md](accuracy-and-verification.md) before describing a fact as confirmed or a task as complete. Clear prose must not hide uncertainty, turn a listing claim into an inspection finding, or fill a missing fact with a persuasive guess.
+
 Editorial reference: [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), read October 15, 2026. Its observations are context-dependent clues, not authorship tests or universal prohibitions. Use the guidance to improve substance and readability; never promise detector results or disguise authorship.
 
 ## Editing rules
