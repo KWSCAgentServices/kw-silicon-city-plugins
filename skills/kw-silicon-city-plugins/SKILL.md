@@ -57,6 +57,10 @@ For a newly listed property announcement, prominently lead the visual with the e
 
 For In Contract marketing, omit the property price everywhere. For Just Listed and Just Closed announcements, omit dates unless the agent explicitly asks to include them. Apply the full status-specific price and date rules in the copy-and-layout reference before writing, generating or releasing any piece; these override generic price/date display defaults.
 
+## HOA on flyers
+
+For every property flyer, including campaign flyers, check whether the property has an HOA. When applicable, include the verified fee and billing frequency as a readable property detail, for example "HOA: $350/month". Follow [the HOA source procedure](references/source-workflow.md#verify-hoa-for-flyers) before generation. Never infer no HOA or zero dues from a blank field. If applicability or an applicable fee/frequency remains unconfirmed after authorized checks, resolve it in the consolidated follow-up before calling the flyer ready to publish. Include the approved HOA line in GPT Image display copy and inspect it in the result. HOA dues are separate from the property price; In Contract price suppression does not remove the verified HOA line.
+
 ## Writing preference
 
 Read [references/plain-writing.md](references/plain-writing.md) before drafting or revising copy, captions, emails, texts, reports or prose replies. Apply the user's October 15, 2026 preference for direct, specific writing and review the finished text against it. This updates the writing style while preserving factual, branding and attribution requirements.
@@ -125,6 +129,7 @@ Do not expose the entire roster, hidden workbook content, private MLS fields, ac
 - Full logo appears clearly on every independently usable marketing piece, with no stretching, cropping, recoloring, or obstruction.
 - Required attribution, equal-housing, REALTOR/MLS, brokerage, and platform disclosures are included when supplied by the source, requested by the user, or required for that channel.
 - Links, phone numbers, email addresses, QR codes, and calls to action are verified.
+- Every property flyer has checked HOA applicability. An applicable verified fee and billing frequency appear legibly in the finished design; missing, zero and no-HOA states are not conflated. No HOA fee is invented or silently omitted from a publication-ready flyer.
 - Every factual claim, including headline implications and generated image text, agrees with the approved evidence record. No unresolved essential fact is presented as confirmed; estimates are labeled and supported by stated inputs/methods. The handoff reports only checks actually completed.
 - Marketing communicates a concrete reader opportunity backed by verified facts, offers useful information before seeking contact, and ends with one helpful next step. News-only or agent-centered openings, empty "opportunity" language, unsupported urgency and promised outcomes are revised before release.
 - Every copy deliverable starts with a verified, attention-grabbing property or event headline, keeps the body short, uses three to five scannable bullets for key value and facts, and ends with a low-pressure buyer-focused CTA before the supporting agent and attribution details.

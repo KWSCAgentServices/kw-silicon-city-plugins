@@ -98,7 +98,7 @@ After the headline, use this order:
 
 1. Optional one-sentence hook that explains the buyer value in plain language.
 2. Address and permitted price or requested event details, kept compact; apply the status-specific price and date rules above first.
-3. Three to five short bullets containing the most important verified facts and differentiators.
+3. Three to five short bullets containing the most important verified facts and differentiators. For a property flyer with an HOA, include the approved fee/frequency line in the compact property facts/costs area or as one of these bullets, for example "HOA: $350/month". Do not bury it in fine print, omit it to make room for promotional copy, or add unnecessary bullets. Follow the HOA verification procedure in source-workflow.md; the example amount is not a listing fact.
 4. A low-pressure call to action focused on helping the buyer, such as scheduling a private tour or getting additional property details.
 5. A compact supporting agent/contact block.
 6. Required listing-agent attribution and disclosures in a readable footer.

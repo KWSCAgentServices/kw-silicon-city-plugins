@@ -55,6 +55,7 @@ Prefer the exact URL supplied by the user. Record the page URL and retrieval dat
 
 - property address;
 - list price and status;
+- HOA applicability, recurring fee amount, billing frequency, any separate additional association fee, and the source/update date;
 - beds, baths, interior square footage, lot size, year built, and property type;
 - MLS/listing number and listing brokerage;
 - public description and public features;
@@ -65,6 +66,16 @@ Prefer the exact URL supplied by the user. Record the page URL and retrieval dat
 Respect login boundaries and site restrictions. If the exact page cannot be read, first search for an accessible current primary listing record using the exact MLS number or address already supplied by the user. If price or status is dated or stale, compare the newest available update timestamps and corroborate the current value with a second authoritative public source when needed. Only after those read-only recovery steps fail should you ask for a public listing URL, exported listing sheet, or the specific facts/photos needed. Do not bypass access controls or scrape protected media.
 
 Do not ask the user to reconfirm price or availability merely because one page shows an old update date. Perform the current-source verification yourself. When sources still materially disagree, present the conflicting values and dates in one concise question rather than choosing silently.
+
+## Verify HOA for flyers
+
+Check the listing's association/HOA fields for the exact address and unit. Record applicability separately from the amount and billing frequency. Confirm against a current accessible primary listing or authorized association document; use the existing conflict/freshness procedure when sources disagree or look stale. Do not assume every condo has a particular fee or that a detached home has no HOA.
+
+When applicable, include the verified recurring fee and its original payment period in the flyer, for example "HOA: $350/month" or "HOA: $1,200/year". These examples are formatting only, not listing facts. Do not assume a period when the source gives only an amount, or silently convert annual/quarterly charges to monthly dues. If multiple mandatory associations apply, identify their fees separately with each frequency; do not hide one or present an unsupported total. Keep any verified special assessment separate from recurring dues. Include covered services only when sourced.
+
+A blank, missing, unknown or zero field alone does not establish no HOA. If no HOA is affirmatively confirmed, omit the HOA line by default; use "No HOA" only with explicit supporting evidence. A confirmed HOA with genuinely zero current dues remains an HOA and must not be relabeled "No HOA"; preserve the source's qualified wording. If applicability, amount, frequency or a material conflict remains unresolved after scoped retrieval, ask for the exact missing confirmation in the consolidated question before releasing a publication-ready flyer. Never fill the gap with a guessed fee or default zero.
+
+Carry the approved HOA wording and its evidence into the source record and GPT Image display copy. For a multi-page flyer, place it in the clearly labeled property facts/costs section; include it in each separately usable flyer version. HOA dues are ownership costs, not asking/contract/sale prices, so retain the verified HOA line when property prices are suppressed for In Contract. A routine fee frequency such as "per month" is not a calendar date and does not violate date-free milestone rules.
 
 ## Format square-foot measurements
 

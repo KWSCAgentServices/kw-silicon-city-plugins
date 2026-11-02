@@ -39,6 +39,7 @@ Before invoking GPT Image, finish collecting and verifying all inputs:
 - the matched KWSC agent's original Drive headshot, unless the user explicitly authorized a no-portrait draft after disclosure;
 - the complete supplied KW Silicon City logo and any verified agent/team branding;
 - exact address, price, status, beds, baths, property type, MLS number, and selected public features, with every square-foot value individually formatted as "Approx. [number] sq. ft.";
+- HOA applicability and, for an applicable HOA on a flyer, the verified fee and billing frequency with finalized display wording; follow [the HOA verification procedure](source-workflow.md#verify-hoa-for-flyers). Do not send unresolved fees for the image model to complete;
 - exact event date and time;
 - exact KWSC host/promoter name, role, phone, email, website, and license details needed for the piece;
 - exact listing-agent name(s), listing brokerage, and the required "Listed by" line;
@@ -62,6 +63,7 @@ The prompt must explicitly require:
 - use the supplied agent headshot for the named host/promoter and preserve identity, facial features, age, expression, skin tone, hair, and overall appearance;
 - use the complete supplied brokerage logo without redrawing, cropping, recoloring, stretching, rearranging, or replacing it; preserve transparent source regions and place the logo on a plain white backing area, never black or another dark background, even in a dark overall layout. For separately requested background removal, retain genuine transparency or white and remove only the surrounding background, not logo artwork or the embedded badge;
 - reproduce the exact verified names, roles, contact details, license number, address, permitted price and requested event details, property facts, listing attribution, and disclosures from approved display copy; never restore amounts or dates omitted under the status-specific rules;
+- for a property flyer with an HOA, reproduce the approved HOA fee and billing frequency legibly in the property facts/costs area, including separately applicable association fees. Keep it readable at delivery size and retain it even when the property price is omitted for In Contract. Do not invent a fee, frequency, covered service or "No HOA" claim. Check the rendered HOA wording against the source before delivery and correct defects through GPT Image;
 - put "Approx." directly with every individual square-foot measurement, including living area, lot size, rooms, garages, ADUs, patios, and parcels; never rely only on a general disclaimer;
 - keep "Hosted by" or "Presented by" separate from "Listed by";
 - open with the supplied verified attention headline; keep the body short, use the supplied 3–5 feature bullets, and use a calm value-first call to action. Do not turn the copy into a paragraph, data dump, hype, or pushy sales language;
