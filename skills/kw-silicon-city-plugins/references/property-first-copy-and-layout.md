@@ -89,7 +89,15 @@ The November 5, 2026 open-house sample is a style reference, not a listing sourc
 - Use a compact contact footer, optionally charcoal, with a small unchanged original headshot and a slightly larger verified phone number. Keep the complete brokerage logo on its own white backing, including within a dark footer. Include accurate roles, attribution and disclosures. Add a QR only when it supports the intended action and the finished code scans to the verified destination.
 - Exclude the sample's orange product stickers, outer mockup background and shadow, generic sales paragraph, names, contact information, pricing, photos, portrait, logo and QR. Use only the current listing's verified inputs. Keep optional KW red accents small; let photography and typography carry the design.
 
-Generate the complete composition in GPT Image. Treat the photo group as flexible art direction, not a set of boxed cards or a coded layout. If required assets cannot be preserved after the allowed corrections, stop the affected visual and explain what could not be preserved.
+#### Composition checks before release
+
+Use this reading order: headline and thin rule at the top, aligned photo group below, then event details and property facts, then a compact agent footer. Reject a photo-first, full-width exterior banner above the headline. When enough suitable verified photos are available, reject a single-photo layout: place the hero beside two stacked views, preferably interiors, with even gutters. If fewer photos are available, rebalance the group below the headline using only verified originals.
+
+Keep the schedule and complete address immediately below the photo group. Group the short feature list and applicable HOA dues nearby. Place the welcome line with the event details rather than giving it a separate full-width band. Use spacing and aligned edges instead of repeated horizontal dividers or isolated boxes. A compact charcoal price inset is optional when the price may be shown.
+
+Keep the original agent portrait in the footer, visibly smaller than the property hero and out of the main photo and facts areas. Verify that the full KWSC logo is legible on an actual white backing even if the footer is charcoal. A dark backing is a release defect. The sample's QR and promotional stickers are not required elements.
+
+Put this reading order and the photo arrangement in the GPT Image prompt. Generate the complete composition in GPT Image, then check the rendered layout against these rules before delivery. Correct layout or asset failures in GPT Image with the original inputs and the existing correction limit. If the result still fails, explain the specific limitation instead of offering a code-built or standard-layout fallback.
 
 ## Status-specific price and date rules
 
