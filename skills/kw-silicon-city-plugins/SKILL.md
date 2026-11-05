@@ -57,6 +57,8 @@ For a newly listed property announcement, prominently lead the visual with the e
 
 For In Contract marketing, omit the property price everywhere. For Just Listed and Just Closed announcements, omit dates unless the agent explicitly asks to include them. Apply the full status-specific price and date rules in the copy-and-layout reference before writing, generating or releasing any piece; these override generic price/date display defaults.
 
+For property flyers, use the [monochrome editorial flyer reference](references/property-first-copy-and-layout.md#monochrome-editorial-flyer-reference) as the default visual direction unless the user requests another style. Use the reference's type, spacing and photo hierarchy; never reuse its sample assets or claims.
+
 ## HOA on flyers
 
 For every property flyer, including campaign flyers, check whether the property has an HOA. When applicable, include the verified fee and billing frequency as a readable property detail, for example "HOA: $350/month". Follow [the HOA source procedure](references/source-workflow.md#verify-hoa-for-flyers) before generation. Never infer no HOA or zero dues from a blank field. If applicability or an applicable fee/frequency remains unconfirmed after authorized checks, resolve it in the consolidated follow-up before calling the flyer ready to publish. Include the approved HOA line in GPT Image display copy and inspect it in the result. HOA dues are separate from the property price; In Contract price suppression does not remove the verified HOA line.

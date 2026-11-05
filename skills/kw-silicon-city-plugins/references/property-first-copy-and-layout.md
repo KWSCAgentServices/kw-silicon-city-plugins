@@ -79,6 +79,18 @@ Create warmth with welcoming, property-grounded headlines, generous photography,
 
 The home must remain dominant; keep the original, unchanged agent headshot small but assessable and the supporting contact block compact. The phone is slightly larger within that block, not the page's hero. Keep short feature bullets, the low-pressure CTA and readable attribution. Warmth never overrides face, property, fact or logo fidelity. Do not copy a flawed generated example literally.
 
+### Monochrome editorial flyer reference
+
+The November 5, 2026 open-house sample is a style reference, not a listing source or fixed template. Use this direction by default for property flyers, including campaign flyers. It takes precedence over earlier residential flyer examples where they differ; retain the warm editorial direction for other formats unless requested otherwise.
+
+- Use a white or warm-white portrait canvas with generous outer margins, a thin rule above a large black high-contrast serif headline, and quieter, readable supporting type. Use the appropriate verified milestone or event headline, not OPEN HOUSE on every flyer.
+- Build a balanced, asymmetrical photo group: one dominant verified property photo beside two smaller stacked views when available. Align edges and use even white gutters. An additional verified detail photo can support the lower facts area if it fits. Adapt to the available originals; never invent a view to fill a slot.
+- Keep the complete address and verified event schedule, when applicable, directly below the photos. Show the permitted price as secondary to the headline and property; a compact charcoal inset with white text is optional. Include the verified HOA amount and billing frequency when applicable, Approx. with square-foot values, and three to five short feature bullets. Follow existing price and date omissions.
+- Use a compact contact footer, optionally charcoal, with a small unchanged original headshot and a slightly larger verified phone number. Keep the complete brokerage logo on its own white backing, including within a dark footer. Include accurate roles, attribution and disclosures. Add a QR only when it supports the intended action and the finished code scans to the verified destination.
+- Exclude the sample's orange product stickers, outer mockup background and shadow, generic sales paragraph, names, contact information, pricing, photos, portrait, logo and QR. Use only the current listing's verified inputs. Keep optional KW red accents small; let photography and typography carry the design.
+
+Generate the complete composition in GPT Image. Treat the photo group as flexible art direction, not a set of boxed cards or a coded layout. If required assets cannot be preserved after the allowed corrections, stop the affected visual and explain what could not be preserved.
+
 ## Status-specific price and date rules
 
 Apply these rules before drafting copy, assembling GPT Image display copy and reviewing every standalone asset or campaign piece:
